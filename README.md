@@ -26,7 +26,7 @@ Once you've got it, add it in the the API URL in the script tag!
 
 ## Step 1: Set up a map with one marker
 
-Your first goal is to get a map with **ONE MARKER** on your screen. Read this Google Walkthrough(https://developers.google.com/maps/documentation/javascript/adding-a-google-map) and see how far you get.
+Your first goal is to get a map with **ONE MARKER** on your screen. [Read this Google Walkthrough](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) and see how far you get.
 
 To find the latitude and longitude of a place, check out [Latlong.net](http://www.latlong.net/)
 
@@ -53,4 +53,4 @@ You can take this super far! A few challenges:
 + Change the look of the map
 + Allow the map to [use your geolocation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation)
 + Add in [animations to your markers](https://developers.google.com/maps/documentation/javascript/examples/marker-animations)
-+ Add a text input and a button to the top of the page. When a user adds in a location, get the coordinates ([using geocoding](https://developers.google.com/maps/documentation/javascript/examples/geocoding-simple)), and then place a pin on the map for that location! 
++ Add a text input and a button to the top of the page. When a user adds in a location, get the coordinates ([using geocoding](https://developers.google.com/maps/documentation/javascript/examples/geocoding-simple)), and then place a pin on the map for that location!
