@@ -23,3 +23,34 @@ You'll see that there is a section of the url that says `your-API-Key-here` - th
 Head to the [Google Developer Console](https://developers.google.com/maps/documentation/javascript/get-api-key) to get an API key for Google Maps.
 
 Once you've got it, add it in the the API URL in the script tag!
+
+## Step 1: Set up a map with one marker
+
+Your first goal is to get a map with **ONE MARKER** on your screen. Read this Google Walkthrough(https://developers.google.com/maps/documentation/javascript/adding-a-google-map) and see how far you get.
+
+To find the latitude and longitude of a place, check out [Latlong.net](http://www.latlong.net/)
+
+
+## Step 2: Multiple Markers
+
+Put your iteration skills to the test! Copy the code below into your code. You now have an array of locations (feel free to add more) in an array called `locations`. Iterate through the array using `forEach()` or a for loop to place each of the locations on the map as a pin.
+
+```js
+var caracas = {lat: 10.4806, lng: -66.9036};
+var newYork = {lat: 40.7128, lng: -74.0059};
+var paris = {lat: 48.856, lng: 2.352};
+var losAngeles ={lat: 34.05, lng: -118.2437};
+var locations = [caracas, newYork, paris, losAngeles]
+```
+
+## Step 3: Info Windows
+
+Check out [this documentation on Info Windows](https://developers.google.com/maps/documentation/javascript/infowindows). Place an info window on each location with information about the spot. For example, if you are mapping restaurants, place your review, an image, or any other pertinent information on the map.
+
+#### Challenges
+
+You can take this super far! A few challenges:
++ Change the look of the map
++ Allow the map to [use your geolocation](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation)
++ Add in [animations to your markers](https://developers.google.com/maps/documentation/javascript/examples/marker-animations)
++ Add a text input and a button to the top of the page. When a user adds in a location, get the coordinates ([using geocoding](https://developers.google.com/maps/documentation/javascript/examples/geocoding-simple)), and then place a pin on the map for that location! 
