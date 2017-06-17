@@ -26,12 +26,16 @@ Once you've got it, add it in the the API URL in the script tag!
 
 ## Step 1: Set up a map with one marker
 
+![one-pin map](https://s3.amazonaws.com/upperline/curriculum-assets/javascript/maps-pin.png)
+
 Your first goal is to get a map with **ONE MARKER** on your screen. [Read this Google Walkthrough](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) and see how far you get.
 
 To find the latitude and longitude of a place, check out [Latlong.net](http://www.latlong.net/)
 
 
 ## Step 2: Multiple Markers
+
+![Many Pins on a Map](https://s3.amazonaws.com/upperline/curriculum-assets/javascript/multi-maps-pins.png)
 
 Put your iteration skills to the test! Copy the code below into your code. You now have an array of locations (feel free to add more) in an array called `locations`. Iterate through the array using `forEach()` or a for loop to place each of the locations on the map as a pin.
 
